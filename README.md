@@ -8,7 +8,7 @@ REQIURES:
 - Start off by calling the `ArdTV` class by `ArdTV --your call name--` and putting the `ArdTV.h` file in the same folder as your `.ino` file
 
 Create Display:
-- Use `.createDisplay(width, height, printData (*optional)` function in setup()
+- Use `.createDisplay()` function in setup()
 
 Rendering Images:
 - Use `.imageLoader(x, y, width, height, bitmap)` function in loop()
