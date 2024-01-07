@@ -1,6 +1,9 @@
 # ArdTV
 Creates a simpler way of using a screen (uses TVout) on Arduino.
 
+REQIURES:
+1. RCA cable and port
+
 # How To Use
 - Start off by calling the `ArdTV` class by `ArdTV --your call name--` and putting the `ArdTV.h` file in the same folder as your `.ino` file
 
