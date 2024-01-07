@@ -1,4 +1,3 @@
-#include <iostream>
 #include <tvout.h>
 #include <fontALL.h>
 
