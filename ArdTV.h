@@ -8,17 +8,12 @@ TVout tv;
 
 class ArdTV {
     public:
-        void createDisplay(int width, int height, bool printData) {
+        void createDisplay() {
             // Setup display
-            tv.begin(PAL, width, height);
+            tv.begin(PAL, 120, 96);
 
             // Create font
             tv.select_font(font6x8);
-
-            // Data to return
-            const unsigned char data[] = {"Width = "+width, "Height = "+height, "Font = font6x8"}
-
-            cout << data[] << endl;
         }
 
         void imageLoader(int x, int y, int width, int height, char imgBitmap) {
