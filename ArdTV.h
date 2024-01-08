@@ -34,7 +34,7 @@ class ArdTV {
             tv.set_cursor(x, y);
         }
 
-        void restScreen() {
+        void resetScreen() {
             tv.clear_screen();
         }
 
