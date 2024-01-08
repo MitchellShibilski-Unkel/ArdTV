@@ -25,4 +25,4 @@ Text:
 - Use `.text(text)` function in loop()
 
 Clear Screen:
-- Use `.restScreen()` function at the beginning of loop() 
+- Use `.resetScreen()` function at the beginning of loop() 
