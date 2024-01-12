@@ -1,7 +1,6 @@
 #include <tvout.h>
 #include <fontALL.h>
 
-using namespace std;
 
 TVout tv;
 
